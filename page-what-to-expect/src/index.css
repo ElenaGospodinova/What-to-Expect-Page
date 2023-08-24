@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+  font-size: 16px;
+    line-height: 1.375;
+    font-family: Nexa, 'Helvetica Neue', Helvetica, sans-serif;
+    color: #3C3C3C;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */

@@ -1,0 +1,93 @@
+.header-area{
+    width: 100%;
+}
+
+.header-area .top, .header-area .search {
+    text-transform: uppercase;
+    text-decoration: none;
+    position: fixed;
+    width: 6em;
+    height: 1em;
+    display: block;
+    top: 0.3em;
+    padding: 1.2em;
+    right: 17.2em;
+    letter-spacing: 0.1em;
+    background: transparent;
+    background-color: #fff;
+    z-index: 10;
+    font-weight: 800;
+    font-size: 2em;
+    color: rgb(120, 111, 111);
+    margin-right: 2em;  
+}
+.header-area .bi-search{
+    background-color: #fff;
+    position: fixed !important;
+    display: block;
+    font-weight:lighter;
+    color: rgb(120, 111, 111);
+    margin: 2.3em 125.1em;
+    width: 2.4em;
+    height: 4.3em;
+    z-index: 10;
+   
+} 
+.hearder-area path{
+    color: rgb(120, 111, 111);
+    
+}
+.header-area .logo {
+    z-index: 8;
+    position: fixed;
+    z-index: 13;
+    width: 90px;
+    padding: 8px;
+}
+.search-bar {
+    position: fixed;
+    z-index: 3;
+    background: transparent;
+    background-color: #fff;
+    right: 0; 
+    top: 0;  
+    margin: 0 1em;
+    padding: 2.3em;
+    border-bottom: 2px solid black;
+    width: 77em; 
+  }
+
+.header-area .btn-search{
+    border: none;
+    
+}
+.header-area .search-site:hover, 
+.header-area .search-site:hover .top, 
+.header-area .search-site:hover .bi-search path {
+    color: #007EAC !important;
+}
+/* @media only screen and (max-width: 1279px){
+.header-area .logo {
+    width: 57px;
+    display: block;
+}
+    
+}
+@media only screen and (max-width: 1023px) {
+.header-area .logo {
+    float: left;
+}
+}
+.header-area .logo {
+    z-index: 8;
+    position: relative;
+}
+.header-area, a {
+    color: #007EAC;
+    text-decoration: none;
+}
+.header-area, a {
+    background-color: transparent;
+} */
+
+

@@ -1,0 +1,218 @@
+ /* On screens that are 600px or less, set the background color to olive */
+ 
+ @media screen and (max-width: 768px) {
+    body {
+      background-color: olive;
+    }
+    .header-area .logo{
+        position: fixed;
+        z-index: 13;
+    }
+    /******************** Navbar */
+    .offcanvas {
+        width: 100% !important;
+        background-color: white;
+        z-index: 11;
+      }
+      .main-menu{
+          margin: 1em 3em;
+          font-size: 0.8em;
+      }
+      .navbar-menu li{
+          margin: -1em -5em;
+          padding: 1.2em;
+          font-size: 1em;
+          line-height: 1em;
+          width: 79vw;
+      }
+      .footer-main {
+          font-size: 0.7em;
+          display: flex;
+          flex-wrap: wrap;
+          margin: 0 -2em;
+          padding: 0;
+        
+
+      }
+      .footer-main a{
+          display: inline;
+          border-bottom: none !important;
+      }
+      .policies{
+          font-size: 0.7em;
+          display: block;
+      }
+      /* .mobile-nav li{
+        height: 100%;
+        width: 0;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #111;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 30px;
+        font-size: 1em;
+      } */
+    
+      .bar1, .bar2, .bar3 {
+        margin-left: 15em; /* Adjust the margin for better alignment */
+        width: 30px;
+        height: 3px; /* Adjust the width for better visibility */
+      }
+    
+      .close-title {
+        font-size: 0.5em; /* Increase font size for better visibility */
+        margin-top: 0.5em; /* Adjust margin for better alignment */
+      }
+    
+      .first {
+        display: none; /* Display the first bar for the hamburger icon */
+      }
+    
+     /*******************  Header */
+     .header-area{
+        width: 100%;
+    }
+    .logoBSU{
+        width: 15vw;
+        margin-left: 2em auto;
+    }
+    .header-area .top, .header-area .search {
+        width: auto;
+        padding: 0.5em;
+        margin-left: 1em;
+       
+    }
+    .search-bar{
+        width: 80%;
+        margin-bottom: 1em;
+        background: transparent;
+    }
+    /*******************  Hero */
+    .group-hands{
+        margin: 8em auto;
+        width: 100vw;
+        height: 52vh;
+        
+    }
+    .hero-text {
+        margin: -7em 6em;
+        padding: 1em;
+        width: 100vw;
+        height:auto;
+        font-size: 1.6em;
+        font-weight: 800;
+    }
+    .motivation{
+        margin: -50em auto;
+        padding: 1.2em;
+        width:auto;
+        height: auto;
+        font-size: 4px;   
+    }
+    .sub-navb{
+        display: none;
+    }
+    .short-courses{
+        max-width: 80%;
+        margin: -1em 3em;
+        font-size: 1em;
+    }
+    .links{
+        margin: 0 -4em;
+        font-size: 0.8em;
+        width: 86vw;
+    }
+    /*******************  MainContent */
+    .what-to-expect{
+        width: 90vw;
+        display:block;
+        font-size: 1.3em;
+        margin: 0 auto;
+    }
+    
+    .slider {
+        width: calc(140% - 1em);
+        margin:0 auto;
+        font-size: 0.9em;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .slide-title {
+        font-size: 1.3em;
+        margin-top: 0.4em;
+        width: 240%; 
+    }
+    
+    .slide-text {
+        width: calc(207% - 1em); /* Adjusted width for text box */
+        margin: 0 auto;
+        font-size: 1em;
+    }
+    
+    .slide-links {
+        text-decoration: none;
+        width: calc(160% - 1em); /* Adjusted width for link box */
+        font-size: 1em;
+        margin: 0.9em;
+    }
+    
+    .slide-image img {
+        width: 70%;
+        height: 54%;
+        max-width: 90%;
+        position: relative;
+        display: block;
+        z-index: 10;
+    }
+    /*******************  StudentsReviews */
+    .card-group {
+       background: none;
+       box-shadow: none;
+       margin-left: 2em;
+       display: block;
+       padding: 3em;
+       justify-items: center;
+       align-items: center;
+     }
+     
+     .images {
+       width: 10em;
+       height: 10em;
+     }
+     .title{
+         padding: 3em;
+     }
+     .aside-list{
+         margin-top: 45em;
+         font-size: 1em;
+     
+     }
+     .aside-list li a {
+         display: inline;
+         font-size: 0.5em;
+     }
+     .last{
+         font-size: 1em;
+         margin: 0 auto;
+         text-align: center;
+     }
+     
+ }
+ 
+    
+
+
+
+
+
+
+
+
+
+
+  
