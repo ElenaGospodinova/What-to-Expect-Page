@@ -5,7 +5,7 @@ import "./styles/App.css";
 import Navbar from './components/Navbar';
 import  './styles/ResponsiveStyle.css';
 import './styles/ResponsiveSmallScreens.css';
-
+import './styles/ResponsiveMobiles.css';
 
 
 function App() {
@@ -16,7 +16,6 @@ function App() {
       <Navbar />
       </div>
       <MainContent/>
-      {/* <StudentsRevies/> */}
     </>
   );
 }

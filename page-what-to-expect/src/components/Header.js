@@ -35,9 +35,7 @@ function Header() {
   return (
     <header className="header-area" role="banner">
       <Logo />
-      <div className='mobile-search'>
-        <SearchBar showSearch={showSearch} toggleSearch={toggleSearch} />
-      </div>
+      <SearchBar showSearch={showSearch} toggleSearch={toggleSearch} />
     </header>
   );
 }
