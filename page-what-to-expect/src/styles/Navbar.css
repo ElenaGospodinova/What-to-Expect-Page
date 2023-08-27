@@ -167,7 +167,7 @@ li:hover{
   cursor: pointer;
   display: inline-block;
   width: 1em;
-  height: 2em;
+  height: 1.3em;
   font-weight: 800;
   font-size:1.7em;
   background-color: white;
@@ -180,6 +180,9 @@ li:hover{
 span .vertical-title .menu .close-title:hover {
   color: #077BC0 !important;
   text-decoration: underline !important;
+}
+span .close-title{
+  color: #077BC0;
 }
 
 .active .mobile-nav {

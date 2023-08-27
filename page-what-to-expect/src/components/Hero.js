@@ -5,7 +5,7 @@ import '../styles/Hero.css';
 function Hero() {
   return (
     <div>
-      <div data-aos="fade-right">
+      <div>
         <img src={Students} alt='Studends group hands' className='group-hands' fluid/>
         <h1 className='hero-text'>What to Expect</h1>
       </div>
